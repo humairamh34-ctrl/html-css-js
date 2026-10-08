@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar dasar HTML</title>
+
+    <meta
+    name="description"
+    content="Artikel mengenai Vincent Willem van Gogh."
+    >
+
+    <link rel="stylesheet" href="dasar.css">
+</head>
+<body>
+    <header>
+        <h1>Vincent Willem van Gogh</h1>
+    </header>
+
+    <nav aria-label="Navigasi utama" 
+    class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#karya">Karya</a>
+        <a href="#contact">Kontak</a>
+        <a href="#feedback">Form Komentar</a>
+    </nav>
+
+    <main>
+    <section id="home">
+        <h1 id="vincent">Siapa itu Vincent Willem van Gogh?</h1>
+        <p>
+            Vincent Willem van Gogh adalah seorang pelukis pascaimpresionis Belanda 
+            yang menjadi salah satu tokoh paling terkenal dan berpengaruh dalam sejarah seni di Barat. 
+            Dalam waktu lebih dari satu dasawarsa, ia menciptakan kurang lebih 2.100 karya seni, 
+            termasuk sekitar 860 lukisan minyak yang kebanyakan dibuat selama dua tahun terakhir 
+            kehidupannya.
+        </p>
+
+         <p>
+            Pada masa kecilnya, putra sulung kelahiran keluarga menengah 
+            ke atas ini merupakan seorang anak yang serius, pendiam dan penuh dengan pikiran. 
+            Saat masih muda, ia menjadi seorang pedagang seni dan sering berkelana, 
+            tetapi ia mengalami depresi setelah dipindah ke London. 
+            Ia beralih ke bidang agama dan menjalani waktunya sebagai seorang misionaris 
+            Protestan di Belgia Selatan. Ia terombang ambing di tengah kesakitan dan kesendirian 
+            sebelum akhirnya mulai melukis pada tahun 1881 setelah kembali ke rumah orang tuanya.
+            Ia menderita penyakit mental dan menghabiskan waktu di rumah sakit jiwa 
+            pada tahun 1889. Selama masa itu, ia melukis beberapa karya paling terkenal, termasuk 
+            "The Starry Night". Ia meninggal pada usia 37 tahun akibat luka tembak yang diyakini sebagai 
+            bunuh diri. 
+        </p>
+    </section>
+    <hr>
+
+    <section id="about">
+        <h1>Tentang Karya Seni Vincent Willem van Gogh</h1>
+        <p>
+            <b>Vincent van Gogh</b> menciptakan sekitar 2.100 karya seni selama hidupnya, 
+            termasuk kurang lebih 860 lukisan cat minyak yang terkenal dengan warna-warna berani, 
+            sapuan kuas yang dramatis, serta teknik impasto (penerapan cat tebal).
+            Van Gogh adalah seorang pelukis yang produktif, tetapi ia hanya menjual satu lukisan 
+            selama hidupnya. 
+        </p>
+    </section>
+    <hr>
+
+    <section id="karya">
+         <h2>Karya-karya Vincent van Gogh</h2>
+        <div class="articles">
+            <article>
+                <h3>Starry Night</h3>
+                <p>"The Starry Night" lah sebuah lukisan minyak di kanvas karya pelukis 
+                    pasca-Impresionis Belanda Vincent van Gogh. Dilukis pada Juni 1889, 
+                    lukisan tersebut menggambarkan pemandangan dari jendela yang menghadap 
+                    ke arah timur dari kamar rumah sakit jiwanya di Saint-Rémy-de-Provence, 
+                    tepat sebelum matahari terbit, dengan tambahan sebuah desa yang diidealkan.</p>
+
+                <img src="image/starry night.jpg" alt="starry night - Van Gogh" class="card">
+            </article>
+
+            <article>
+                <h3>Almond Blossom</h3>
+                <p>"The Almond Blossom" h sejumlah lukisan yang dibuat pada tahun 1888 dan 1890 oleh 
+                    Vincent van Gogh di Arles dan Saint-Rémy, Prancis selatan, yang menggambarkan pohon-pohon 
+                    almond yang bermekaran. Pohon-pohon yang bermekaran dianggap istimewa oleh van Gogh.</p>
+
+                <img src="image/almond blossom.jpg" alt="Almond Blossoms - Van Gogh" class="card">
+            </article>
+
+            <article>
+                <h3>Sunflowers</h3>
+                <p>"The Sunflower" lah nama dari dua serial lukisan cuplikan kehidupan karya 
+                    pelukis Belanda Vincent van Gogh. Serial pertama, yang dieksekusi di Paris 
+                    pada 1887, menggambarkan bunga yang berada di tanah, sementara set kedua, 
+                    yang dieksekusi setahun kemudian di Arles, menampilkan seikat bunga matahari 
+                    di sebuah vas.</p>
+
+                <img src="image/sunflowers.jpg" alt="Sunflowers - Van Gogh" class="card">
+            </article>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h1>Kontak Kami</h1>
+        <p>Anda dapat menghubungi kami melalui email di artikelkita@gmail.com jika ada yang ingin anda tambahkan pada artikel ini.</p>
+    </section>
+    <hr>
+    </main>
+
+    <section id="feedback">
+        <h2>Form Komentar</h2>
+        <form>
+
+        <div class="form-group">
+        <label for="Nama">Nama: </label><br>
+        <input type="text" name="Nama" id="Nama" placeholder="Masukkan teks" maxlength="100" required><br><br>
+        </div>
+
+        <div class="form-group">
+        <label for="Umur">Umur: </label><br>
+        <input type="number" name="Umur" id="Umur" placeholder="Masukkan teks" min="1" max="200" required><br><br>
+        </div>
+
+        <div class="form-group">
+        <label for="jenis_Kelamin">Jenis Kelamin: </label><br>
+        <input type="radio" name="jenis_Kelamin" id="Laki-laki" value="Laki-laki">Laki-laki <br>
+        <input type="radio" name="jenis_Kelamin" id="Perempuan" value="Perempuan">Perempuan <br><br>
+        </div>
+
+        <div class="form-group">
+        <label for="Tanggal">Tanggal: </label><br>
+        <input type="date" name="Tanggal" id="Tanggal" required><br><br>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email" placeholder="Masukkan teks" maxlength="100" required><br><br>
+        </div>
+
+        <div class="form-group">
+        <label for="Password">Password: </label><br>
+        <input type="password" name="Password" id="Password" placeholder="Masukkan teks" maxlength="100" required><br><br>
+        </div>
+
+        <button type="submit" id="klik">Kirim</button>
+    </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 Situs Kami. All rights reserved.</p>
+    </footer>
+
+    <script src="dasar.js"></script>
+</body>
+</html>
