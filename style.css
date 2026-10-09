@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: papayawhip;
+}
+
+header, footer {
+    background: olive;
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background: lightcoral;
+}
+
+nav a {
+    color: papayawhip;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: lightyellow;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+article {
+    padding: 39px;
+    background: lightyellow;
+    border-radius: 10px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px)1fr));
+    gap: 20px;
+}
+
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+button {
+    background: olive;
+    color: papayawhip;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: lightgrey;
+}
